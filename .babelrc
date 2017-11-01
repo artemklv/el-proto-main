@@ -18,9 +18,7 @@
     },
     "production": {
       "plugins": [
-        ["transform-es2015-modules-systemjs", {
-          "systemGlobal": "SystemJS"
-        }]
+        ["transform-es2015-modules-systemjs"]
       ]
     }
   }

@@ -1,11 +1,12 @@
-import './index.css'
-import 'whatwg-fetch'
-import 'babel-polyfill'
 import { render } from 'react-dom'
 import React from 'react'
-import Application from './components/Application'
+import Application from './components/Application.js'
 
-render(
-  <Application />
-  , document.getElementById("root")
-)
+console.log('hello');
+
+export default function () {
+  render(
+    <Application />
+    , document.getElementById("root")
+  )
+}
